@@ -118,7 +118,7 @@ WxSDKCheck.prototype._sign = function (url) {
     return ret;
 }
 // 传入，获取js api sdk的配置数据
-WxSDKCheck.prototype.getJSSConfig = function(url,callback) {
+WxSDKCheck.prototype.getJSConfig = function(url,callback) {
     var _this = this;
     this._getAccessToken(function(aError){
         if (aError) {
@@ -131,6 +131,8 @@ WxSDKCheck.prototype.getJSSConfig = function(url,callback) {
                 return;
             };
             var ret = _this._sign(url);
+            ret.appId = _this.appId;
+            delete ret["jsapi_ticket"];
             callback(null,ret);
         });
     })
