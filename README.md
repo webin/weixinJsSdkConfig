@@ -1,6 +1,6 @@
 # weixinJsSdkConfig
 
-微信js sdk服务端签名生成接口
+微信js sdk服务端签名生成接口([微信JS-SDK说明文档](http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html))
 
 ## 使用方法
 
