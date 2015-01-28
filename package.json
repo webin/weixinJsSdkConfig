@@ -11,6 +11,10 @@
     "jssdk",
     "signature"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxingchi/weixinJsSdkConfig.git"
+  },
   "author": "maxingchi",
   "license": "MIT",
   "dependencies": {
