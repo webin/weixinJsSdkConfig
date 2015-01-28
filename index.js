@@ -135,3 +135,5 @@ WxSDKCheck.prototype.getJSSConfig = function(url,callback) {
         });
     })
 }
+
+module.exports = WxSDKCheck;
