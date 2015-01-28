@@ -1,6 +1,6 @@
 {
   "name": "wxjssdkconfig",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "weixin js sdk signature",
   "main": "index.js",
   "scripts": {
